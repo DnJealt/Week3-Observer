@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace mvcObserver
 {
-    class Program
+    class LetterView : Observer
     {
-        static void Main(string[] args)
+        public override void update()
         {
-            Cijfers getal = new Cijfers();
-            getal.attach(new LetterView());
-
+            
         }
     }
 }
